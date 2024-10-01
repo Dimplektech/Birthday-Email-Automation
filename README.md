@@ -18,7 +18,7 @@ This Python script sends automatic birthday wishes via email using pre-defined l
 2. **Directory Structure**:
    - The `letter_templates` folder should contain the birthday letter templates named as `letter_1.txt`, `letter_2.txt`, and `letter_3.txt`.
 
-3. **Edit the Python script (`birthday_wisher.py`)**:
+3. **Edit the Python script (`main.py`)**:
    - Update the `birthdays` dictionary with names and birthdays in the format `MM-DD`.
    - In the `send_email` function, replace the placeholders with your SMTP details:
      - `my_email`: Your email address.
